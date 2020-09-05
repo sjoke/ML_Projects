@@ -23,7 +23,7 @@ from torchvision import transforms
 
 import utils.torchutil as torchutil
 from utils.log import lg
-from ItemDataset import ItemDataset
+from item_dataset import ItemDataset
 from model import build_model
 warnings.filterwarnings("ignore")
 # python train.py --batch_size 512 --num_epochs 10
