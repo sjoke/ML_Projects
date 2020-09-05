@@ -1,6 +1,8 @@
 # img2vec
 训练图像分类模型, 提取图像embedding
 
+数据集大小: 288w张 256*256大小的图片，类别标签116个
+
 - download_images.py 用于多线程下载图像到本地
 - ItemDataset.py 定义数据集
 - model.py 定义模型，使用迁移学习，应用resnet152
